@@ -6,7 +6,7 @@ import { UncaughtErrorComponent } from './error-routing/error/uncaught-error.com
 import { ErrorRoutingModule } from './error-routing/error-routing.module';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'in-app/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: 'home/login', pathMatch: 'full' },
   { path: 'error', component: UncaughtErrorComponent },
   { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
   { path: 'in-app', loadChildren: () => import('./in-app/in-app.module').then(m => m.InAppModule) },
