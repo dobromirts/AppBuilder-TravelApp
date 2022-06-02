@@ -6,6 +6,7 @@ import { HomeComponent } from './home.component';
 import { LoginComponent } from './login/login.component';
 import { IgxInputGroupModule, IgxCheckboxModule, IgxButtonModule, IgxRippleModule } from 'igniteui-angular';
 import { FormsModule } from '@angular/forms';
+import { ChildViewComponent } from './child-view/child-view.component';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { SetNewPasswordComponent } from './set-new-password/set-new-password.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
@@ -14,6 +15,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
   declarations: [
     HomeComponent,
     LoginComponent,
+    ChildViewComponent,
     ResetPasswordComponent,
     SetNewPasswordComponent,
     SignUpComponent
